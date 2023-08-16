@@ -396,4 +396,3 @@ plot(CD_final_testing$Year, CD_final_testing$GDP.per.capita..current.US.., type=
 
 lines(CD_final_testing$Year, CD_final_testing$predl20, type="b", col="red")
 ```
-**END OF CODE SCRIPT**
