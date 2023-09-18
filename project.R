@@ -157,7 +157,7 @@ CD_testing = CD %>% filter(CD$Country %in% CL_testing)
 
 
 **Analysis 1: Tree and Random Forest Classification**
-We don't have to use linearised data, as transformations do not impact tree and random forest ML models
+We dont have to use linearised data, as transformations do not impact tree and random forest ML models
 ```{r}
 tree1 = tree(Class~.-GDP.per.capita..current.US.., data = CD_training[,-c(1,2)])
 summary(tree1)
